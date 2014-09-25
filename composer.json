@@ -1,0 +1,26 @@
+{
+    "name": "daemionfox/menu-builder",
+    "description": "Menu Building library",
+    "authors": [
+        {
+            "name": "Matt Sowers",
+            "email": "matt@rcsipublishing.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DaemionFox\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "~2.5.0",
+        "phpunit/phpunit": "~4.1.3",
+        "squizlabs/php_codesniffer": "1.*"
+    }
+}
