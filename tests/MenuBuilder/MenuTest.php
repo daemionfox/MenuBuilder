@@ -97,7 +97,7 @@ class MenuTest extends \PHPUnit_Framework_TestCase {
 
 
 
-        $menu = new \DaemionFox\MenuBuilder\Menu($arr);
+        $menu = new \DaemionFox\MenuBuilder\MenuBuilder($arr);
         $result = $menu->raw();
         $this->assertSame($result, $expected);
 

@@ -8,7 +8,7 @@
 
 namespace DaemionFox\MenuBuilder;
 
-class Menu
+class MenuBuilder
 {
     private $fullMenu = array();
     private static $idCounter = 0;
